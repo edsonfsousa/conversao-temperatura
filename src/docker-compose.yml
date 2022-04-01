@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+    conversao-api:
+        container_name: conversao-api
+        image: edsonfsousa/api-conversao:v1
+        build: .
+        ports:
+            - '8087:80'
